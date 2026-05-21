@@ -5,7 +5,7 @@ import TokenTable from './components/TokenTable.jsx';
 import TokenSummary from './components/TokenSummary.jsx';
 import './App.css';
 
-const API_BASE = 'http://localhost:3000';
+const API_BASE = import.meta.env.VITE_API_URL;
 
 const DEFAULT_CODE = `
 // Developed By Ayush Sinha,Department of computer science and engineering @ Tezpur University
